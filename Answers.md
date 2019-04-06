@@ -9,7 +9,7 @@
     A function can be of different forms anonymous, expression, declaration,Functions are executed when they are called. Values can be passed into functions and used within the function
     
 3- A closure is an inner function that has access to the outer functions around it and their variables.
-    it is the comibation between the function and the lexical env it was declared in.
+    it is the combination between the function and the lexical env it was declared in.
     
 4-the four rules of this
     * window binding
@@ -17,6 +17,6 @@
     * explicit binding
     * using the new keyword(binding with new).
     
-5- you need super() to be able to inherit the parents properieties and attributes.
+5- you need super() to be able to inherit the parents proprieties and attributes.
 
 */
