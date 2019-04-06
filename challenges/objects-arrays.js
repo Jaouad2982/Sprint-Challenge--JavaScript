@@ -165,7 +165,6 @@ let populationTotal = populationArray.reduce((total,element)=>{
 })
 console.log(populationTotal);
 
-
 /* 
 
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.

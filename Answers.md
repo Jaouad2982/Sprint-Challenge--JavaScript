@@ -9,14 +9,21 @@
     A function can be of different forms anonymous, expression, declaration,Functions are executed when they are called. Values can be passed into functions and used within the function
     
 3- A closure is an inner function that has access to the outer functions around it and their variables.
-    it is the comibation between the function and the lexical env it was declared in.
+    it is the combination between the function and the lexical env it was declared in.
     
 4-the four rules of this
     * window binding
+        When in the global scope, the value of “this” will be the window/console Object
     * implicit binding
+       Implicit binding occurs when dot notation is used to invoke a function. 
+       In implicit binding, whatever is to the left of the dot becomes the context for this in the function.
     * explicit binding
+        Explicit binding of this occurs when .call(), .apply(), or .bind() are used on a function.
+        We call these explicit because you are explicitly passing in a this context to call() or apply().
     * using the new keyword(binding with new).
+        if a function was called with new, the this keyword is referencing that new object that the interpretor created.
+
     
-5- you need super() to be able to inherit the parents properieties and attributes.
+5- you need super() to be able to inherit the parents proprieties and attributes.   
 
 */
