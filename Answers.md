@@ -13,10 +13,17 @@
     
 4-the four rules of this
     * window binding
+        When in the global scope, the value of “this” will be the window/console Object
     * implicit binding
+       Implicit binding occurs when dot notation is used to invoke a function. 
+       In implicit binding, whatever is to the left of the dot becomes the context for this in the function.
     * explicit binding
+        Explicit binding of this occurs when .call(), .apply(), or .bind() are used on a function.
+        We call these explicit because you are explicitly passing in a this context to call() or apply().
     * using the new keyword(binding with new).
+        if a function was called with new, the this keyword is referencing that new object that the interpretor created.
+
     
-5- you need super() to be able to inherit the parents proprieties and attributes.
+5- you need super() to be able to inherit the parents proprieties and attributes.   
 
 */
